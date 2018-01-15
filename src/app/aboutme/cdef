@@ -1,0 +1,74 @@
+.about {
+  background: #2B2B2B;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+}
+
+.about a, #about a:visited  { color: #fff; }
+.about a:hover, #about a:focus { color: #11ABB0; }
+
+.about h2 {
+  font: 22px/30px 'opensans-bold', sans-serif;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.about p {
+  line-height: 30px;
+  color: #7A7A7A;
+}
+.about .profile-pic {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+
+
+.education .item {
+    margin-bottom: 30px;
+  }
+  .education .item:last-child {
+    margin-bottom: 0;
+  }
+  .education .item .title {
+    font-size: 16px;
+    margin-top: 0;
+  }
+  .education .item .university {
+    font-family: "Lato", arial, sans-serif;
+    font-size: 13px;
+    color: #999;
+    font-weight: 600;
+    padding-left: 25px;
+  }
+  .education .item .university .year {
+    color: #b0b7bf;
+    font-weight: 500;
+  }
+
+  #testimonials blockquote {
+    margin: 0 0px 30px 0px;
+    padding-left: 0;
+    position: relative;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+ }
+ #testimonials blockquote:before { content: none; }
+ #testimonials blockquote p {
+    font-family: 'librebaskerville-italic', serif;
+    padding: 0;
+    font-size: 20px;
+    line-height: 48px;
+    color: black;
+ }
+ #testimonials blockquote cite {
+    display: block;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 18px;
+    color: black;
+ }
+ #testimonials blockquote cite:before { content: "\2014 \0020"; }
+ #testimonials blockquote cite a,
+ #testimonials blockquote cite a:visited { color: #8B9798; border: none }
+ 
